@@ -19,7 +19,11 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Sixhei Tartari" />
         <meta name="author" content="sixheitartari" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="images/favicon.ico"
+          type="image/x-icon"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeJhin1" />
         <meta name="twitter:creator" content="@LeJhin1" />
