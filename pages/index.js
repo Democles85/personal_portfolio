@@ -73,13 +73,13 @@ const Home = () => (
         <Paragraph>
           Sixhei ( CJ ) is a freelancer and a full-stack developer based in
           Albania with a passion for building digital services/stuff he wants.
-          He has a knack for all things launching products, from planning and
-          designing all the way to solving real-life problems with code. When
-          not online, he loves hanging out with his camera. Currently, he is
-          living off of his own product called{' '}
-          {/* <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
-          </NextLink> */}
+          He has a knack for all things starting from planning and designing all
+          the way to solving real-life problems with code. When not online, he
+          loves hanging out with his dog/cat and music. Currently, he is living
+          off of his own website called{' '}
+          <NextLink href="/works/shoppocles">
+            <Link>Shoppocles</Link>
+          </NextLink>
           .
         </Paragraph>
         <Box align="center" my={4}>
