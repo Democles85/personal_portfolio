@@ -21,8 +21,8 @@ import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoDiscord
+  IoLogoGithub
+  // IoLogoDiscord
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/pentakill.jpg'
 import thumbInkdrop from '../public/images/works/shoppocles_thumbnail.png'
