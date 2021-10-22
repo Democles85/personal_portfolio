@@ -75,8 +75,8 @@ const Home = () => (
           Albania with a passion for building digital services/stuff he wants.
           He has a knack for all things starting from planning and designing all
           the way to solving real-life problems with code. When not online, he
-          loves hanging out with his dog/cat and music. Currently, he is living
-          off of his own website called{' '}
+          loves hanging out with his dog/cat and music. Currently, he is working
+          on his own website called{' '}
           <NextLink href="/works/shoppocles">
             <Link>Shoppocles</Link>
           </NextLink>
@@ -102,13 +102,14 @@ const Home = () => (
         <BioSection>
           <BioYear>2016</BioYear>
           Started learning programming on different languages like C, C++ and
-          Java and started working as a junior freelanced where I helped others
-          complete their school projects
+          Java and started working as a freelancer, where I helped others
+          complete their school projects or clients trying to fix their bugs in
+          different software.
         </BioSection>
         <BioSection>
           <BioYear>2019 to present</BioYear>
-          Joined University as a student for Computer Science and still
-          occasionally working as a freelancer
+          Joined University as a student for Computer Science, proceedeing
+          Bachelor for it and still occasionally working as a freelancer.
         </BioSection>
       </Section>
 
