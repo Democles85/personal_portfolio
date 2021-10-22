@@ -11,8 +11,8 @@ const Work = () => (
         Shoppocles <Badge>September 15, 2021 - </Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $200k.
+        En E-Commerce Website for different products like tech related or day to
+        day use. Created with Commerce.js, Stripe and PayPal
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -23,23 +23,20 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Website</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Electron, React Native</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
-            How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
-            $5/mo <ExternalLinkIcon mx="2px" />
-          </Link>
+          <span>
+            React Native, NodeJS, NextJs, Commerce.js, Stripe, Paypal (Coming
+            Soon!)
+          </span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/shoppocles_01.png" alt="Shoppocles" />
+      <WorkImage src="/images/works/shoppocles_02.png" alt="Shoppocles" />
+      <WorkImage src="/images/works/shoppocles_03.png" alt="Shoppocles" />
     </Container>
   </Layout>
 )

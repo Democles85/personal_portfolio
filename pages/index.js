@@ -176,13 +176,13 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             href="https://www.youtube.com/watch?v=O0RKS9592-s"
             title="Fav Song of the Month"
             thumbnail={thumbYouTube}
           >
             My Favourite Song Of The Month
-          </GridItem>
+          </GridItem> */}
           <GridItem
             href="https://shoppocles.netlify.app/"
             title="Shoppocles"
