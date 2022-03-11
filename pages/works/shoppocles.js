@@ -11,7 +11,7 @@ const Work = () => (
         Shoppocles <Badge>September 15, 2021 - </Badge>
       </Title>
       <P>
-        En E-Commerce Website for different products like tech related or day to
+        An E-Commerce Website for different products like tech related or day to
         day use. Created with Commerce.js, Stripe and PayPal
       </P>
       <List ml={4} my={4}>
