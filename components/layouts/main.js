@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container, useToast } from '@chakra-ui/react'
 import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
+import { useEffect } from 'react'
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
   ssr: false,
@@ -11,6 +12,21 @@ const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
 })
 
 const Main = ({ children, router }) => {
+  const toast = useToast()
+
+  useEffect(() => {
+    setInterval(() => {
+      toast({
+        title: 'Warning!',
+        description:
+          'The website is currently under development so there might be things that are not working properly!',
+        status: 'warning',
+        duration: 5000,
+        isClosable: true
+      })
+    }, 15000)
+  }, [])
+
   return (
     <Box as="main" pb={8}>
       <Head>
